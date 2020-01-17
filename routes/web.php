@@ -11,4 +11,8 @@
 |
 */
 
-Route::get('/movies', 'MovieController@index');
+Route::get('/', 'ComicsController@index');
+
+// Route::get('/', function(){
+//   return "ciao mondo";
+// });
